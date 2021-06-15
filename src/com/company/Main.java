@@ -6,7 +6,7 @@ public class Main {
 
         String s = "";
 
-
+    //OUTPUT
         s = String.format("%-24s| %-9s| min = %,-27d| max = %,-27d|",
                 Byte.class, "1 byte", Byte.MIN_VALUE, Byte.MAX_VALUE);
         System.out.println(s);
