@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-
+//
         String s;
 
         s = String.format("%-24s| %-9s| min = %,-27d| max = %,-27d|",
