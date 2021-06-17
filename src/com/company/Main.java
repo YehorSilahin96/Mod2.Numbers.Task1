@@ -6,9 +6,9 @@ public class Main {
 //
         String s;
 
-        s = String.format("%-24s| %-9s| min = %,-27d| max = %,-27d|",
+        s = String.format("%-24s| %-9s| min = %,-27d| max = %,-27d|", //you can reuse it, if you move it to comstant
                 Byte.class, "1 byte", Byte.MIN_VALUE, Byte.MAX_VALUE);
-        System.out.println(s);
+        System.out.println(s);  // explore other methods of System.out
 
 
         s = String.format("%-24s| %-9s| min = %,-27d| max = %,-27d|",
